@@ -1,8 +1,10 @@
 package app;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("Hello world!");
+        AppController app = new AppController();
+        app.Menu();
     }
 }
